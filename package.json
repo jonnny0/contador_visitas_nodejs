@@ -1,0 +1,19 @@
+{
+  "name": "contador_visitas_nodejs",
+  "version": "1.0.0",
+  "description": "Contador de visitas node.js",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://jonnny0@github.com/jonnny0/contador_visitas_nodejs.git"
+  },
+  "author": "Antonio Espinosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonnny0/contador_visitas_nodejs/issues"
+  },
+  "homepage": "https://github.com/jonnny0/contador_visitas_nodejs"
+}

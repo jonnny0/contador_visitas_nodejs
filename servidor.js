@@ -9,6 +9,9 @@ var http = require('http');
 //inicializo las visitas iniciales a 0
 var contador = 0;
 
+
+var puerto = process.env.PORT || 8081;
+
 /**
  * 
  * En cada conexión devuelve un código HTML con el número actual de visitas,
@@ -26,7 +29,7 @@ http.createServer(function (req, res) {
     res.write('<p style="text-align:center">El número actual de visitas es: ' + contador + '</p>');
     res.write('</body></html>');
     res.end();
-}).listen(8081);
+}).listen(puerto);
 
 //muestro en la terminal que se está ejecutando
-console.log("Servidor ejecutándose en http://127.0.0.1:8081/");
+console.log("Servidor ejecutándose");

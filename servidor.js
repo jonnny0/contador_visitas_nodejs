@@ -9,7 +9,7 @@ var http = require('http');
 //inicializo las visitas iniciales a 0
 var contador = 0;
 
-
+//el puerto dónde se ejecutará
 var puerto = process.env.PORT || 8081;
 
 /**
